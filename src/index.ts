@@ -8,6 +8,7 @@ import crc16xmodem from './crc16xmodem.js';
 import crc16kermit from './crc16kermit.js';
 import crc24 from './crc24.js';
 import crc32 from './crc32.js';
+import crc64 from './crc64.js';
 import crcjam from './crcjam.js';
 
 export { crc1 };
@@ -20,6 +21,7 @@ export { crc16xmodem };
 export { crc16kermit };
 export { crc24 };
 export { crc32 };
+export { crc64 };
 export { crcjam };
 
 export default {
@@ -33,5 +35,6 @@ export default {
   crc16kermit,
   crc24,
   crc32,
+  crc64,
   crcjam,
 };

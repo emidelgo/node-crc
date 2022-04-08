@@ -1,14 +1,20 @@
 {
-  "name": "crc",
+  "name": "@emidelgo/crc",
   "version": "4.1.1",
   "description": "Module for calculating Cyclic Redundancy Check (CRC) for Node.js and the Browser.",
   "author": {
+    "name": "Emiliano del Gobbo",
+    "url": "https://github.com/emidelgo"
+  },
+    "contributors" : [
+  {
     "name": "Alex Gorbatchev",
     "url": "https://github.com/alexgorbatchev"
-  },
-  "homepage": "https://github.com/alexgorbatchev/node-crc",
-  "bugs": "https://github.com/alexgorbatchev/node-crc/issues",
-  "repository": "alexgorbatchev/node-crc",
+  }
+ ],
+  "homepage": "https://github.com/emidelgo/node-crc",
+  "bugs": "https://github.com/emidelgo/node-crc/issues",
+  "repository": "emidelgo/node-crc",
   "license": "MIT",
   "keywords": [
     "crc",
@@ -20,6 +26,7 @@
     "crc1",
     "crc24",
     "crc32",
+    "crc64",
     "crc81wire",
     "crc8",
     "crcjam"
@@ -113,6 +120,11 @@
       "types": "./mjs/calculators/crc32.d.ts",
       "import": "./mjs/calculators/crc32.js",
       "require": "./cjs-default-unwrap/calculators/crc32.js"
+    },
+    "./calculators/crc32": {
+      "types": "./mjs/calculators/crc64.d.ts",
+      "import": "./mjs/calculators/crc64.js",
+      "require": "./cjs-default-unwrap/calculators/crc64.js"
     },
     "./crc81wire": {
       "types": "./mjs/crc81wire.d.ts",
